@@ -22,6 +22,13 @@
     <main>
         <section id="merch">
             <h2 style="font-size: 3rem; text-align: center; text-transform: uppercase; margin-bottom: 2rem; font-weight: 900;">YEEZY</h2>
+            <div class="filter-bar">
+                <select id="sortSelect">
+                    <option value="">Sort by</option>
+                    <option value="low-high">Price: Low → High</option>
+                    <option value="high-low">Price: High → Low</option>
+                </select>
+            </div>
             <div class="merch-grid">
                 <!-- Item 1 -->
                 <div class="merch-item">
@@ -41,7 +48,7 @@
                     </div>
                     <div class="merch-info">
                         <span>WET TANK</span>
-                        <span>$20</span>
+                        <span>$25</span>
                     </div>
                 </div>
                 <!-- Item 3 -->
@@ -51,7 +58,7 @@
                     </div>
                     <div class="merch-info">
                         <span>VULTURES LONG T</span>
-                        <span>$20</span>
+                        <span>$30</span>
                     </div>
                 </div>
             </div>
@@ -60,5 +67,30 @@
             </div>
         </section>
     </main>
+    <script>
+    document.getElementById("sortSelect").addEventListener("change", function() {
+        const sortValue = this.value;
+        const grid = document.querySelector(".merch-grid");
+        const items = Array.from(grid.querySelectorAll(".merch-item"));
+
+        // extract price from `$20` → 20
+        const getPrice = item => parseFloat(item.querySelector(".merch-info span:last-child").innerText.replace("$", ""));
+
+        items.sort((a, b) => {
+            if (sortValue === "low-high") {
+                return getPrice(a) - getPrice(b);
+            } 
+            else if (sortValue === "high-low") {
+                return getPrice(b) - getPrice(a);
+            }
+            return 0;
+        });
+
+        // clear and re-add sorted items
+        grid.innerHTML = "";
+        items.forEach(item => grid.appendChild(item));
+    });
+    </script>
+
 </body>
 </html>

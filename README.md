@@ -32,6 +32,8 @@ Feature 5. The vision page. This page highlights Kanye's career as a vision. I a
 
 Feature 6. "Integrating" his shop into the website. I want this entire website to be dedicated to him, so I added a page where users can "buy" from the website with his very own brand, Yzy. this page is a grid where it shows the products and the costs.
 
+Feature 7, basic filtering for price in the YZY shop page. This feature allows the products to be filtered based on their price range. low to high, high to low.
+
 Technologies used
     https://chatgpt.com/
     https://www.w3schools.com/
@@ -49,14 +51,14 @@ https://genius.com/Kanye-west-kanye-west-47th-grammy-best-rap-album-acceptance-s
 Media
 
 The photos used in this site were obtained from 
-    Google,
 
-    https://www.rollingstone.com/results/?q=Kanye&size=n_10_n&sort-field=relevance&sort-direction=desc
+Google,
 
-    https://open.spotify.com/
+https://www.rollingstone.com/results/?q=Kanye&size=n_10_n&sort-field=relevance&sort-direction=desc
+
+https://open.spotify.com/
 
 Acknowledgements
 
 
-I received inspiration for this project from the Artist Kanye West, Spotify
 I received inspiration for this project from the Artist Kanye West, Spotify
