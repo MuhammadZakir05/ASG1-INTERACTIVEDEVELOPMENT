@@ -1,5 +1,5 @@
 # ASG1-INTERACTIVEDEVELOPMENT
-Project Name: Ye. 
+Project Name: Ye.
  This project is a website where I promote the artist, Kanye West. Kanye West is an african american singer rapper who gained popularity in the early 2000s, with some of his notable hits winning him grammies. I intended to make this website to show his albums, past tours and upcoming tours and to feature his very own company, Yeezy.
 
 Design Process
@@ -14,12 +14,9 @@ As an avid listener of Kanye West, I want to share his music all around. Despite
 Github Link: https://github.com/MuhammadZakir05/ASG1-INTERACTIVEDEVELOPMENT
 
 Github Pages: https://muhammadzakir05.github.io/ASG1-INTERACTIVEDEVELOPMENT/
-
-<<<<<<< HEAD
 Figma Link:
 =======
-Figma Link: https://www.figma.com/design/MROvh444OgCDYxURj9F7fx/Interactive-Development-Zakir-ASG1?node-id=0-1&t=su8bnkOTeoAdEkxl-1
->>>>>>> f029e0f18042ca3fe2f5d30816d10530cca939b7
+Figma Link: https://www.figma.com/design/MROvh444OgCDYxURj9F7fx/Interactive-Development-Zakir-ASG1?node-id=0-1&t=su8bnkOTeoAdEkxl-1 
 
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -61,8 +58,6 @@ The photos used in this site were obtained from
 
 Acknowledgements
 
-<<<<<<< HEAD
+
 I received inspiration for this project from the Artist Kanye West, Spotify
-=======
 I received inspiration for this project from the Artist Kanye West, Spotify
->>>>>>> f029e0f18042ca3fe2f5d30816d10530cca939b7
