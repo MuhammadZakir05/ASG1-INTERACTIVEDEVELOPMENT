@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YE - The Stage</title>
+    <link rel="stylesheet" href="Normalize.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="logo" onclick="window.location.href='index.html'">YE</div>
+        <div class="nav-links">
+            <button onclick="window.location.href='index.html'">Discography</button>
+            <button onclick="window.location.href='TheStage.html'">The Stage</button>
+            <button onclick="window.location.href='Vision.html'">Vision</button>
+            <button onclick="window.location.href='YZY.html'">YZY</button>
+        </div>
+    </nav>
+
+    <!--NOTIFICATION TOAST-->
+    <div id="toast">Playing: Runaway</div>
+
+    <main>
+        <!--HOME-->
+        <section id="home">
+            <div class="hero">
+                <h2>Kanye<br><span>West</span></h2>
+                <p>24 Grammys. 160 Million Records Sold. One Vision.</p>
+            </div>
+
+           <div class="album-grid">
+                <!--CollegeDropout-->
+                <div class="album-card">
+                    <div class="art-container">
+                        <img src="images/CollegeDropout.jpg" alt="The College Dropout" class="album-cover-img">
+                        <div class="hover-overlay"><button class="listen-btn" onclick="playMusic('The College Dropout')">Listen</button></div>
+                    </div>
+                    <div class="album-info">
+                        <div class="album-header"><span class="album-title">The College Dropout</span><span class="album-year">2004</span></div>
+                        <p class="album-desc">The backpack rap revolution. Soul samples and ambition.</p>
+                    </div>
+                </div>
+
+                <!--LateRegistration-->
+                <div class="album-card">
+                    <div class="art-container">
+                        <img src="images/LateRegistration.jpg" alt="Late Registration" class="album-cover-img">
+                        <div class="hover-overlay"><button class="listen-btn" onclick="playMusic('Late Registration')">Listen</button></div>
+                    </div>
+                    <div class="album-info">
+                        <div class="album-header"><span class="album-title">Late Registration</span><span class="album-year">2005</span></div>
+                        <p class="album-desc">Orchestral hip-hop at its finest. Broader, richer, deeper.</p>
+                    </div>
+                </div>
+
+                <!--Graduation-->
+                <div class="album-card">
+                    <div class="art-container">
+                        <img src="images/Graduation.jpg" alt="Graduation" class="album-cover-img">
+                        <div class="hover-overlay"><button class="listen-btn" onclick="playMusic('Graduation')">Listen</button></div>
+                    </div>
+                    <div class="album-info">
+                        <div class="album-header"><span class="album-title">Graduation</span><span class="album-year">2007</span></div>
+                        <p class="album-desc">Stadium status. Electronic influences and pop dominance.</p>
+                    </div>
+                </div>
+
+                <!-- 808 -->
+                <div class="album-card">
+                    <div class="art-container">
+                        <img src="images/808s.jpg" alt="808s & Heartbreak" class="album-cover-img">
+                        <div class="hover-overlay"><button class="listen-btn" onclick="playMusic('808s & Heartbreak')">Listen</button></div>
+                    </div>
+                    <div class="album-info">
+                        <div class="album-header"><span class="album-title">808s & Heartbreak</span><span class="album-year">2008</span></div>
+                        <p class="album-desc">Auto-tune melancholy that changed the sound of hip-hop forever.</p>
+                    </div>
+                </div>
+
+                <!--My Beautiful Dark Twisted Fantasy-->
+                <div class="album-card">
+                    <div class="art-container">
+                        <img src="images/MBDTF.jpg" alt="My Beautiful Dark Twisted Fantasy" class="album-cover-img">
+                        <div class="hover-overlay"><button class="listen-btn" onclick="playMusic('My Beautiful Dark Twisted Fantasy')">Listen</button></div>
+                    </div>
+                    <div class="album-info">
+                        <div class="album-header"><span class="album-title">My Beautiful Dark Twisted Fantasy</span><span class="album-year">2010</span></div>
+                        <p class="album-desc">A tragic, beautiful masterpiece.</p>
+                    </div>
+                </div>
+
+                <!--Yeezus-->
+                <div class="album-card">
+                    <div class="art-container">
+                        <img src="images/Yeezus.jpg" alt="Yeezus" class="album-cover-img">
+                        <div class="hover-overlay"><button class="listen-btn" onclick="playMusic('Yeezus')">Listen</button></div>
+                    </div>
+                    <div class="album-info">
+                        <div class="album-header"><span class="album-title">Yeezus</span><span class="album-year">2013</span></div>
+                        <p class="album-desc">A punk rap declaration.</p>
+                    </div>
+                </div>
+
+                <!--The Life of Pablo-->
+                <div class="album-card">
+                    <div class="art-container">
+                        <img src="images/TheLifeOfPablo.jpg" alt="The Life of Pablo" class="album-cover-img">
+                        <div class="hover-overlay"><button class="listen-btn" onclick="playMusic('The Life of Pablo')">Listen</button></div>
+                    </div>
+                    <div class="album-info">
+                        <div class="album-header"><span class="album-title">The Life of Pablo</span><span class="album-year">2016</span></div>
+                        <p class="album-desc">A living, breathing gospel album, chaos and faith.</p>
+                    </div>
+                </div>
+
+                <!--Ye-->
+                <div class="album-card">
+                    <div class="art-container">
+                        <img src="images/Ye.jpg" alt="Ye" class="album-cover-img">
+                        <div class="hover-overlay"><button class="listen-btn" onclick="playMusic('Ye')">Listen</button></div>
+                    </div>
+                    <div class="album-info">
+                        <div class="album-header"><span class="album-title">ye</span><span class="album-year">2018</span></div>
+                        <p class="album-desc">Beautiful melody, created in the mountains of Wyoming.</p>
+                    </div>
+                </div>
+
+                <!--JesusIsKing-->
+                <div class="album-card">
+                    <div class="art-container">
+                        <img src="images/JesusIsKing.jpg" alt="Jesus Is King" class="album-cover-img">
+                        <div class="hover-overlay"><button class="listen-btn" onclick="playMusic('Jesus Is King')">Listen</button></div>
+                    </div>
+                    <div class="album-info">
+                        <div class="album-header"><span class="album-title">Jesus Is King</span><span class="album-year">2019</span></div>
+                        <p class="album-desc">A full commitment to gospel.</p>
+                    </div>
+                </div>
+
+                <!--Donda-->
+                <div class="album-card">
+                    <div class="art-container">
+                        <img src="images/Donda.jpg" alt="Donda" class="album-cover-img">
+                        <div class="hover-overlay"><button class="listen-btn" onclick="playMusic('Donda')">Listen</button></div>
+                    </div>
+                    <div class="album-info">
+                        <div class="album-header"><span class="album-title">Donda</span><span class="album-year">2021</span></div>
+                        <p class="album-desc">A memorial album regarding Kanye's late mother, Donda.</p>
+                    </div>
+                </div>
+
+                <!--Vultures-->
+                <div class="album-card">
+                    <div class="art-container">
+                        <img src="images/Vultures.jpg" alt="Vultures" class="album-cover-img">
+                        <div class="hover-overlay"><button class="listen-btn" onclick="playMusic('Vultures')">Listen</button></div>
+                    </div>
+                    <div class="album-info">
+                        <div class="album-header"><span class="album-title">Vultures</span><span class="album-year">2024</span></div>
+                        <p class="album-desc">Latest Album featuring Ty Dolla Sign, Playboy Carti.</p>
+                    </div>
+                </div>
+
+                <!--BULLY UPCOMING-->
+                <div class="album-card">
+                    <div class="art-container">
+                        <img src="images/Bully.jpg" alt="Bully" class="album-cover-img">
+                        <div class="hover-overlay"><button class="listen-btn" onclick="playMusic('Bully')">Listen</button></div>
+                    </div>
+                    <div class="album-info">
+                        <div class="album-header"><span class="album-title">Bully</span><span class="album-year">EST. 2025</span></div>
+                        <p class="album-desc">An Upcoming Album from Kanye West.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- BOTTOM BAR -->
+    <div class="music-bar">
+        <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 40px; height: 40px; background: #eee; color: black; display: flex; align-items: center; justify-content: center;">🎵</div>
+            <div>
+                <div style="font-size: 0.7rem; color: #78716c; text-transform: uppercase; font-weight: bold;">Now Playing</div>
+                <div id="player-track" style="font-weight: bold; text-transform: uppercase;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let isPlaying = false;
+
+        function playMusic(trackName) {
+            const track = trackName;
+            document.getElementById('player-track').innerText = track;
+            
+            // Show Toast
+            const toast = document.getElementById('toast');
+            toast.innerText = "Playing: " + track;
+            toast.classList.add('show');
+            
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+
+    </script>
+</body>
+</html>
