@@ -15,7 +15,7 @@ Github Link: https://github.com/MuhammadZakir05/ASG1-INTERACTIVEDEVELOPMENT
 
 Github Pages: https://muhammadzakir05.github.io/ASG1-INTERACTIVEDEVELOPMENT/
 
-Figma Link:
+Figma Link: https://www.figma.com/design/MROvh444OgCDYxURj9F7fx/Interactive-Development-Zakir-ASG1?node-id=0-1&t=su8bnkOTeoAdEkxl-1
 
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
