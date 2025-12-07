@@ -14,6 +14,7 @@ As an avid listener of Kanye West, I want to share his music all around. Despite
 Github Link: https://github.com/MuhammadZakir05/ASG1-INTERACTIVEDEVELOPMENT
 
 Github Pages: https://muhammadzakir05.github.io/ASG1-INTERACTIVEDEVELOPMENT/
+
 Figma Link: https://www.figma.com/design/MROvh444OgCDYxURj9F7fx/Interactive-Development-Zakir-ASG1?node-id=0-1&t=su8bnkOTeoAdEkxl-1 
 
 Features
