@@ -1,5 +1,5 @@
 # ASG1-INTERACTIVEDEVELOPMENT
-Project Name: Ye.
+Project Name: Ye. 
  This project is a website where I promote the artist, Kanye West. Kanye West is an african american singer rapper who gained popularity in the early 2000s, with some of his notable hits winning him grammies. I intended to make this website to show his albums, past tours and upcoming tours and to feature his very own company, Yeezy.
 
 Design Process
